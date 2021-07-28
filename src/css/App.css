@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Relaway';
+  font-weight: 300;
+  src:  local('Relaway'), url('../fonts/Raleway/static/Raleway-Light.ttf') format('truetype');;
+}
+@font-face {
+  font-family: 'Relaway';
+  font-weight: 400;
+  src:  local('Relaway'), url('../fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');;
+}
+@font-face {
+  font-family: 'Relaway';
+  font-weight: 600;
+  src:  local('Relaway'), url('../fonts/Raleway/static/Raleway-Bold.ttf') format('truetype');;
+}
+@font-face {
+  font-family: 'Relaway';
+  font-weight: 700;
+  src:  local('Relaway'), url('../fonts/Raleway/static/Raleway-ExtraBold.ttf') format('truetype');;
+}
+body{
+  font-family: 'Relaway';
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #EAEAEA;
+}
+.app {
+  height: 800px;
+  overflow-y: auto;
+  margin: 100px auto;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 1px #c3bfbf;
+}
+.app-header {
+  text-align: center;
+}
+.app-header > input{
+  font-size: 25px;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: 300;
+  color: #585858;
+  border: none;
+  line-height: 55px;
+  border-bottom: 2px solid #dadada;
+}
+.app-header > input::placeholder{
+  font-size: 25px;
+  font-weight: 300;
+}
+.app-header > input:focus-visible{
+  outline: none !important;
+}

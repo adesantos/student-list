@@ -1,0 +1,68 @@
+.student{
+    padding-bottom: 20px;
+}
+.student > .row{
+    margin-top: 30px;
+}
+.student:not(:last-child){
+    border-bottom: 1px solid #f1f1f1;
+}
+.student .pic{
+    text-align: center;
+}
+.student .pic img{
+    width: 60%;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+.student .info-wapper .name{
+    display: flex;
+    justify-content: space-between;
+}
+.student .info-wapper .name h2{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.student .info-wapper .name button{
+    color: #989797;
+    font-size: 25px;
+    border: none;
+    background: none;
+}
+.student .grades{
+    margin-top: 30px;
+}
+.student .grades p{
+    margin: 0;
+}
+.student .grades p > span{
+    margin-left: 25px;
+}
+.student .info-wapper .info{
+    margin-left: 20px;
+}
+.student .info-wapper .info > p{
+    margin-bottom: 5px;
+}
+.student .tag-wrapp{
+    margin-top: 20px;
+}
+.student .tag-wrapp .ReactTags__selected span.ReactTags__tag{
+    color: #000;
+    font-weight: 400;
+    margin-right: 10px;
+    background: #e4e4e4;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.student .tag-wrapp .ReactTags__remove{
+    display: none;
+}
+.student .tag-wrapp .ReactTags__tagInputField{
+    margin-top: 25px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.student .tag-wrapp .ReactTags__tagInputField:focus-visible{
+    outline: none;
+}
